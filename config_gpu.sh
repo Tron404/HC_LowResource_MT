@@ -3,9 +3,9 @@
 #SBATCH --gpus-per-node=a100:1
 #SBATCH --tasks-per-node=8
 #SBATCH --job-name=jupyter
-#SBATCH --mem=16G
+#SBATCH --mem=32G
 #SBATCH --partition=gpu
-#SBATCH --time=2:00:00
+#SBATCH --time=8:00:00
 
 # Clear the module environment
 module purge

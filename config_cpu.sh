@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --tasks-per-node=6
-#SBATCH --time=01:00:00
+#SBATCH --time=02:00:00
 #SBATCH --job-name=jupyter
 #SBATCH --mem=16G
 #SBATCH --partition=regular
